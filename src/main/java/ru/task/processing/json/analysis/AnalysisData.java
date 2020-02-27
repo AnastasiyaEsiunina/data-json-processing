@@ -25,7 +25,7 @@ public class AnalysisData implements SparkLoadable {
                 .filter("diff_week==1 or diff_week==51").select(app_df.col("initiator_id")).distinct().count();
         Long all_users = registered_df.select("initiator_id").distinct().count();
 
-        Long result =  good_users * 100 / all_users;
+        Long result =  good_users * 100.0 / all_users;
         System.out.println();
         System.out.println();
         System.out.println("=========================");
