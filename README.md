@@ -11,5 +11,4 @@
 * Для запуска приложения в режиме аналитики - класс:
 >ru.task.processing.json.analysis.AnalysisData
 * Пути для исходных файлов и результатов в config.properties:
->local_src_file - полный путь к json файлу
->local_target_dir - полный путь к директории, куда необходимо сохранить файлы в формате parquet
+>local_src_file - полный путь к json файлу,  local_target_dir - полный путь к директории, куда необходимо сохранить файлы в формате parquet
